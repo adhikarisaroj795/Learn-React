@@ -20,12 +20,19 @@ import Form from "./components/Form";
 import LifecyleA from "./components/LifecyleA";
 import FragmentDemmo from "./components/FragmentDemmo";
 import Table from "./components/Table";
+import Purecomponent from "./components/Purecomponent";
+import ParentComp from "./components/ParentComp";
+import RefsDemo from "./components/RefsDemo";
+import FocusInput from "./components/FocusInput";
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <Table />
+        <FocusInput />
+        {/* <RefsDemo /> */}
+        {/* <ParentComp /> */}
+        {/* <Table /> */}
         {/* <FragmentDemmo /> */}
         {/* <LifecyleA /> */}
         {/* <Form /> */}
