@@ -32,6 +32,7 @@ import ClickCounter from "./components/ClickCounter";
 import HoverCounter from "./components/HoverCounter";
 import ClickCounter2 from "./components/ClickCounter2";
 import HoverCounterTwo from "./components/HoverCounterTwo";
+import User from "./components/User";
 
 class App extends Component {
   render() {
@@ -39,6 +40,7 @@ class App extends Component {
       <div className="App">
         <ClickCounter2 />
         <HoverCounterTwo />
+        <User />
         {/* <ClickCounter />
         <HoverCounter /> */}
         {/* <ErrorBoundary>
