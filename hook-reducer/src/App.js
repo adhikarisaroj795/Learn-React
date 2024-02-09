@@ -5,6 +5,7 @@ import ComponentB from "./Components/ComponentB";
 import ComponentC from "./Components/ComponentC";
 import ComponentA from "./Components/ComponentA";
 import DataFerchingOne from "./Components/DataFerchingOne";
+import DataFetchingTwo from "./Components/DataFetchingTwo";
 
 export const countContext = React.createContext();
 
@@ -32,7 +33,8 @@ function App() {
         <ComponentA />
         <ComponentB />
         <ComponentC /> */}
-      <DataFerchingOne />
+      {/* <DataFerchingOne /> */}
+      <DataFetchingTwo />
     </div>
     // </countContext.Provider>
   );
